@@ -1,0 +1,75 @@
+.hamburger {
+  width: 10%;
+}
+
+nav {
+  background-color: #96172C;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding: 2px;
+  color: #F93B5A;
+  font-size: 70%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #33020a;
+}
+
+nav .imgmenu {
+  display: none;
+}
+
+@media all and (min-width: 641px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul a {
+    font-size: 150%;
+  }
+  nav .hamburger {
+    display: none;
+  }
+  nav .imgmenu {
+    display: block;
+    width: 20%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text p {
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 20%;
+}
+
+@media all and (min-width: 641px) {
+  p {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=mon_site.css.map */
