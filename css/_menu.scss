@@ -1,10 +1,21 @@
 $color-text : #F93B5A;
 $color-menu : #96172C;
 
+<<<<<<< HEAD
 nav {
   background-color: $color-menu;
   li {
     list-style-type: none;
+=======
+.hamburger {
+  width: 10%;
+}
+
+nav {
+  background-color: $color-menu;
+  li {
+    list-style-type:none;
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
   }
   a {
     display: block;
@@ -13,6 +24,7 @@ nav {
     font-size: 70%;
     text-decoration: none;
   }
+<<<<<<< HEAD
   a:hover {
     background-color: darken($color-text, 50%);
   }
@@ -50,4 +62,36 @@ nav {
     vertical-align: -0.15em;
     fill: currentColor;
   }
+=======
+
+  a:hover {
+    background-color: darken($color-text, 50%);
+  }
+
+  .imgmenu {
+    display: none;
+  }
+
+  @media all and (min-width: 641px) {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        font-size: 150%;
+      }
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .imgmenu {
+      display: block;
+      width: 20%;
+    }
+  }
+
+
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
 }

@@ -7,12 +7,17 @@ $color-text: #FFFFFF;
 
 body {
   background-repeat:no-repeat;
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size:cover;
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
 }
 
 .text {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   margin: 15%;
   p {
     text-align: center;
@@ -31,3 +36,20 @@ body {
     font-size: 40px;
   }
 }
+=======
+  align-items: center;
+
+  p {
+    text-align: center;
+    background-color: $color-text;
+    width: 20%;
+  }
+}
+
+  @media all and (min-width: 641px) {
+    p {
+      font-size: 40px;
+    }
+  }
+
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+.hamburger {
+  width: 10%;
+}
+
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
 nav {
   background-color: #96172C;
 }
@@ -18,17 +25,22 @@ nav a:hover {
   background-color: #33020a;
 }
 
+<<<<<<< HEAD
 .hamburger {
   width: 10%;
 }
 
 .imgmenu {
+=======
+nav .imgmenu {
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
   display: none;
 }
 
 @media all and (min-width: 641px) {
   nav ul {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
   }
   nav a {
@@ -46,6 +58,20 @@ nav a:hover {
     height: 1em;
     vertical-align: -0.15em;
     fill: currentColor;
+=======
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul a {
+    font-size: 150%;
+  }
+  nav .hamburger {
+    display: none;
+  }
+  nav .imgmenu {
+    display: block;
+    width: 20%;
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
   }
 }
 
@@ -62,18 +88,26 @@ body {
 .text {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   margin: 15%;
+=======
+  align-items: center;
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
 }
 
 .text p {
   text-align: center;
   background-color: #FFFFFF;
+<<<<<<< HEAD
   width: 40%;
 }
 
 .cacher_sprite {
   height: 0;
   width: 0;
+=======
+  width: 20%;
+>>>>>>> fac47e3fc3a4dab0b731f158f5ad4e7b3047ea4f
 }
 
 @media all and (min-width: 641px) {
