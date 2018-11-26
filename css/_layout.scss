@@ -1,0 +1,33 @@
+$color-text: #FFFFFF;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 15%;
+  p {
+    text-align: center;
+    background-color: $color-text;
+    width: 40%;
+  }
+}
+
+.cacher_sprite {
+  height: 0;
+  width: 0;
+}
+
+@media all and (min-width: 641px) {
+  p {
+    font-size: 40px;
+  }
+}
